@@ -11,7 +11,7 @@ import java.util.Random;
 	    }
 	    static void tossAndAssignSymbols(){
 	        Random random = new Random();
-	        isHumanTurn = random.nextBoolean(); // Randomly decide who goes first
+	        isHumanTurn = random.nextBoolean();
 	        if (isHumanTurn) {
 	            humanSymbol = 'X';
 	            computerSymbol = 'O';
